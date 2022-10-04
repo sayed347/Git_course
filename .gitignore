@@ -1,0 +1,13 @@
+#ignore all files that ends with .o extention 
+*.o
+#ignore all files that ends with .exe extention
+*.exe
+# ignore environement files where we can store our credentials or private connection data
+*.env
+# ignore .log files
+*.log
+# ignores all .md files
+.md
+
+# does not ignore the README.md file
+!README.md
